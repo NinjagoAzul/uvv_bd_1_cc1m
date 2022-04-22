@@ -1,3 +1,5 @@
+/*Essa primeira etapa deve ser feita comando por comando pois é preciso primeiro abrir o terminal do postgres*/
+ 
  su - postgres
  postgres
 
@@ -9,6 +11,8 @@
  psql
  computacao@raiz
 
+/*Jogar todos os comandos seguintes no terminal*/
+ 
  create database uvv
 	with
 	owner = "rolph" 
