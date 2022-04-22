@@ -1,5 +1,5 @@
  mysql -u root -p
- 123456
+ computacao@raiz
 
  create user 'rolph'@'localhost' identified by '123456';
  grant all on uvv.* to 'rolph'@'localhost';
