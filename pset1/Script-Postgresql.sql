@@ -1,4 +1,4 @@
-/*Essa primeira etapa deve ser feita comando por comando pois é preciso primeiro abrir o terminal do postgres*/
+/*Essa primeira etapa deve ser feita comando por comando pois é preciso primeiro abrir o terminal do linux e se conectar ao sgbd postgres*/
  
  su - postgres
  postgres
@@ -11,7 +11,7 @@
  psql
  computacao@raiz
 
-/*Jogar todos os comandos seguintes no terminal*/
+/*Jogar todos os comandos seguintes ja no terminal do postgresql*/
  
  create database uvv
 	with
