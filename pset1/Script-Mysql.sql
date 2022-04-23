@@ -1,3 +1,5 @@
+/*Essa primeira etapa deve ser feita comando por comando pois é preciso primeiro abrir o terminal do linux e se conectar ao sgbd mariadb/mysql*/
+
 mysql -u root -p
 computacao@raiz
 
@@ -6,6 +8,8 @@ grant all on uvv.* to 'rolph'@'localhost';
 
 system mysql -u rolph -p
 123456
+
+/*Jogar todos os comandos seguintes ja no terminal do mariadb/mysql*/
 
 create database uvv;
 use uvv;
