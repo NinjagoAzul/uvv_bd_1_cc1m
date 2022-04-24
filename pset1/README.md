@@ -55,13 +55,13 @@
   > Com os scripts gerados, basta conectarmos o terminal do Linux no SGBD que quisermos gerar o banco de dados para podermos inserir o seu script.
 
   
-  # **3.1 Conectando ao PostgreSQL**
+  ## **3.1 Conectando ao PostgreSQL**
   > Utilizando o terminal do Linux disposto no VirtualBox.
   
   ![conectando ao postgresql](https://github.com/RolphFadini/uvv_bd_1_cc1m/blob/main/pset1/imgs/Conectando-postgres.png)
   
   
-  # **3.1 Conectando ao MySQL/MariaDB**
+  ## **3.1 Conectando ao MySQL/MariaDB**
   > Utilizando o terminal do Linux disposto no VirtualBox.
 
   ![conectando ao mysql/mariadb](https://github.com/RolphFadini/uvv_bd_1_cc1m/blob/main/pset1/imgs/Conectando-mysql.png)
