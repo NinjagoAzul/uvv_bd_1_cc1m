@@ -12,7 +12,7 @@
   
   # **1. Introdução**
   
-  Esse foi o primeiro pset que nos foi passado para que pudessemos conhecer um pouco melhor como seria a dinamica de avaliação da matéria de Banco de Dados. Para criação das questões do pset foram utilizados os capítulos 5 e 6 do livro `Sistemas de Banco de Dados, 7ª edição` escrito pelos autores Elmasri & Navathe. Para a realização do pset a seguinte ordem fui utilizada:
+  Esse foi o primeiro pset que nos foi passado para que pudessemos conhecer um pouco melhor como seria a dinamica de avaliação da matéria de Banco de Dados. Para criação das questões do pset foram utilizados os capítulos 5 e 6 do livro `Sistemas de Banco de Dados, 7ª edição` escrito pelos autores Elmasri & Navathe. Para a realização do pset a seguinte ordem foi utilizada:
   
   - ### Construção de um Projeto Lógico.
   > Para que pudessemos construir as tabelas e suas respectivas relações tanto quanto os scripts utilizados nos dois SGBDs 
