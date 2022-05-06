@@ -147,7 +147,7 @@ insert into funcionario values
 
 insert into departamento values
 (1, 'Matriz', 88866555576, '1981-06-19'),
-(5, 'Pesqusia', 33344555587, '1988-05-22'),
+(5, 'Pesquisa', 33344555587, '1988-05-22'),
 (4, 'Administração', 98765432168, '1995-01-01');
 
 insert into localizacoes_departamento values
