@@ -75,7 +75,7 @@ create table trabalha_em (
                 cpf_funcionario char(11) not null,
                 numero_projeto int not null,
                 horas decimal(3,1) not null,
-                primary key (cpf_funcionario, numero_projeto_trabalha_em)
+                primary key (cpf_funcionario, numero_projeto)
 );
 
 alter table trabalha_em comment 'tabela para armazenará quais funcionários trabalham em quais projetos. ';
