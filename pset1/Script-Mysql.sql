@@ -73,7 +73,7 @@ create unique index projeto_idx
 
 create table trabalha_em (
                 cpf_funcionario char(11) not null,
-                numero_projeto_trabalha_em int not null,
+                numero_projeto int not null,
                 horas decimal(3,1) not null,
                 primary key (cpf_funcionario, numero_projeto_trabalha_em)
 );
@@ -130,7 +130,7 @@ on delete no action
 on update no action;
 
 alter table trabalha_em add constraint projeto_trabalha_em_fk
-foreign key (numero_projeto_trabalha_em)
+foreign key (numero_projeto)
 references projeto (numero_projeto)
 on delete no action
 on update no action;
