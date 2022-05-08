@@ -1,4 +1,4 @@
--- Questão 1:
+-- Questão 1
 
 SELECT dpt.nome_departamento Departamento, CONCAT(ROUND(AVG(f.salario), 2)) "Média Salarial"
 FROM funcionario f
@@ -7,7 +7,7 @@ ON dpt.numero_departamento = f.numero_departamento
 GROUP BY dpt.nome_departamento;
 
 
--- Questão 2:
+-- Questão 2
 
 SELECT sexo, CONCAT(ROUND(AVG(f.salario), 2)) as "Média Salarial"
 FROM funcionario f
@@ -168,7 +168,7 @@ ON d.cpf_funcionario = f.cpf
 ORDER BY idade DESC;
 
 
--- Questão 14:
+-- Questão 14
 
 SELECT dpt.nome_departamento Departamento, COUNT(f.numero_departamento) "Qtde. de Funcionários"
 FROM funcionario f
@@ -177,7 +177,7 @@ ON f.numero_departamento = dpt.numero_departamento
 GROUP BY dpt.nome_departamento;
 
 
--- Questão 15:
+-- Questão 15
 
 SELECT DISTINCT CONCAT(f.primeiro_nome, " ", f.nome_meio, " ", f.ultimo_nome) "Nome Completo",
 dpt.nome_departamento Departamento, p.nome_projeto Projeto
@@ -189,8 +189,3 @@ WHERE dpt.numero_departamento = f.numero_departamento
 AND p.numero_projeto = t.numero_projeto 
 AND t.cpf_funcionario = f.cpf
 ORDER BY p.nome_projeto DESC;
-
-
-
-
-
