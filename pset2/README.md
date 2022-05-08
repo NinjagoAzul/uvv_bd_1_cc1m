@@ -296,3 +296,7 @@ não está alocado em  nenhum projeto, o nome completo e o departamento também 
 | Fernando T Wong  | Pesquisa        | Informatização   |
 | André V Pereira  | Administração   | Informatização   |
 | Alice J Zelaya   | Administração   | Informatização   |
+<hr>
+
+
+> Todas as tabelas utilizadas foram retiradas do [Pset1](https://github.com/RolphFadini/uvv_bd_1_cc1m/blob/main/pset1/Script-Mysql.sql).
