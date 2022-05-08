@@ -153,7 +153,7 @@ CASE
 WHEN f.sexo = "M" THEN "Masculino"
 WHEN f.sexo = "F" THEN "Feminino"
 END Sexo,
-TIMESTAMPDIFF(year, f.data_nascimento, curdate()) Idade
+TIMESTAMPDIFF(YEAR, f.data_nascimento, CURDATE()) Idade
 FROM funcionario f
 UNION
 SELECT CONCAT(d.nome_dependente, " ", f.nome_meio, " ", f.ultimo_nome) "Nome Completo",
