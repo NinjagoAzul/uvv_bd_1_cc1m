@@ -9,7 +9,7 @@ GROUP BY dpt.nome_departamento;
 
 -- Questão 2
 
-SELECT sexo, CONCAT(ROUND(AVG(f.salario), 2)) as "Média Salarial"
+SELECT f.sexo Sexo, CONCAT(ROUND(AVG(f.salario), 2)) as "Média Salarial"
 FROM funcionario f
 GROUP BY Sexo;
 
