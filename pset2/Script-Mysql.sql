@@ -19,8 +19,7 @@ GROUP BY Sexo;
 SELECT dpt.nome_departamento Departamento, CONCAT( f.primeiro_nome, " ", f.nome_meio, " ", f.ultimo_nome ) "Nome Completo", 
 f.data_nascimento "Data de Nascimento", TIMESTAMPDIFF(YEAR, f.data_nascimento, CURDATE()) Idade, CONCAT("R$", " ", f.salario) Salário
 FROM funcionario f 
-INNER JOIN
-departamento dpt
+INNER JOIN departamento dpt
 ON f.numero_departamento = dpt.numero_departamento
 ORDER BY dpt.numero_departamento;
 
