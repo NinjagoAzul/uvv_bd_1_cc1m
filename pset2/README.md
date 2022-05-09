@@ -33,7 +33,7 @@
 prepare um relatório que mostre a média salarial dos homens e das mulheres.
 ```
 
-| sexo | Média Salarial  |
+| Sexo | Média Salarial  |
 |------|-----------------|
 | F    | 31000.00        |
 | M    | 37600.00        |
