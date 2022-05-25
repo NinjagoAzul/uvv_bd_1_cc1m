@@ -85,16 +85,16 @@ prepare um relatório que liste, para cada departamento, o nomedo gerente e o no
 nome do departamento em ordem crescente) e por salário dos funcionários (em ordem decrescente).
 ```
 
-| Departamento    | Gerente  | Funcionário  | Salário     |
-|-----------------|----------|--------------|-------------|
-| Administração   | Jennifer | --:--        | R$ 43000.00 |
-| Administração   | --:--    | Alice        | R$ 25000.00 |
-| Administração   | --:--    | André        | R$ 25000.00 |
-| Matriz          | Jorge    | --:--        | R$ 55000.00 |
-| Pesquisa        | Fernando | --:--        | R$ 40000.00 |
-| Pesquisa        | --:--    | Ronaldo      | R$ 38000.00 |
-| Pesquisa        | --:--    | João         | R$ 30000.00 |
-| Pesquisa        | --:--    | Joice        | R$ 25000.00 |
+| Departamento  | Gerente  | Funcionário |
+|---------------|----------|-------------|
+| Administração | Jennifer | Jennifer    |
+| Administração | Jennifer | André       |
+| Administração | Jennifer | Alice       |
+| Matriz        | Jorge    | Jorge       |
+| Pesquisa      | Fernando | Fernando    |
+| Pesquisa      | Fernando | Ronaldo     |
+| Pesquisa      | Fernando | João        |
+| Pesquisa      | Fernando | Joice       |
 ##
 
 
