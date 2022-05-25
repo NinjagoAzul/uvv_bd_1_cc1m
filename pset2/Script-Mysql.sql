@@ -38,19 +38,11 @@ ORDER BY idade DESC;
 
 -- Questão 5
 
-SELECT dpt.nome_departamento Departamento,
-CASE
-WHEN dpt.cpf_gerente = f.cpf THEN primeiro_nome
-ELSE "--:--"
-END "Gerente",
-CASE WHEN dpt.cpf_gerente != f.cpf THEN primeiro_nome
-ELSE "--:--"
-END "Funcionário",
-CONCAT("R$", " ", f.salario) Salário
-FROM funcionario f
-INNER JOIN departamento dpt
-ON f.numero_departamento = dpt.numero_departamento
-ORDER BY dpt.nome_departamento ASC, f.salario DESC;
+SELECT dpt.nome_departamento Departamento, g.primeiro_nome Gerente, f.primeiro_nome Funcionário
+FROM departamento dpt
+INNER JOIN funcionario g ON (dpt.cpf_gerente = g.cpf)
+INNER JOIN funcionario f ON (f.numero_departamento = dpt.numero_departamento)
+ORDER BY departamento, f.salario DESC;
 
 
 -- Questão 6
